@@ -1,13 +1,274 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - 글로벌 소프트웨어 개발 서비스</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Voyagers</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#services">서비스</a></li>
+                    <li><a href="#process">프로세스</a></li>
+                    <li><a href="#industries">산업분야</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>글로벌 소프트웨어 개발 파트너</h1>
+                <p>소규모부터 대규모 기업까지, 혁신적인 시스템 구축으로 비즈니스 성장을 지원합니다</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">문의하기</a>
+                    <a href="#services" class="btn btn-secondary">서비스 알아보기</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1581092921461-39b9c6564a36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="디지털 트랜스포메이션">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>서비스</h2>
+                <p>고객의 비즈니스 요구사항에 맞는 맞춤형 소프트웨어 솔루션을 제공합니다</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>맞춤형 소프트웨어 개발</h3>
+                    <p>비즈니스 요구사항에 맞는 확장 가능하고 안정적인 소프트웨어 솔루션을 개발합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>제조업 시스템 구축</h3>
+                    <p>소규모부터 대규모 제조업체를 위한 생산관리, 품질관리, 재고관리 시스템을 구축합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>모바일 앱 개발</h3>
+                    <p>iOS 및 Android 플랫폼을 위한 사용자 친화적인 모바일 애플리케이션을 개발합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>클라우드 솔루션</h3>
+                    <p>확장 가능하고 안전한 클라우드 기반 인프라 및 애플리케이션을 구축합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>시스템 통합</h3>
+                    <p>기존 시스템과 새로운 기술을 원활하게 통합하여 비즈니스 효율성을 향상시킵니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>데이터 분석 솔루션</h3>
+                    <p>데이터 기반 의사결정을 위한 고급 분석 및 시각화 도구를 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>단계적 컨설팅 프로세스</h2>
+                <p>체계적인 접근 방식으로 프로젝트의 성공을 보장합니다</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>요구사항 분석</h3>
+                        <p>비즈니스 목표와 요구사항을 철저히 이해하고 분석합니다.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>솔루션 설계</h3>
+                        <p>요구사항에 맞는 최적의 기술 스택과 아키텍처를 설계합니다.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>개발 및 구현</h3>
+                        <p>애자일 방법론을 활용하여 효율적으로 개발하고 구현합니다.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>테스트 및 품질 보증</h3>
+                        <p>철저한 테스트를 통해 소프트웨어의 품질과 안정성을 보장합니다.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>배포 및 유지보수</h3>
+                        <p>원활한 배포와 지속적인 유지보수 및 지원을 제공합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2>산업분야</h2>
+                <p>다양한 산업 분야에서의 풍부한 경험을 바탕으로 최적의 솔루션을 제공합니다</p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="제조업">
+                    <div class="industry-content">
+                        <h3>제조업</h3>
+                        <p>생산 관리, 품질 관리, 재고 관리 시스템 구축으로 제조 프로세스를 최적화합니다.</p>
+                    </div>
+                </div>
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="물류 및 유통">
+                    <div class="industry-content">
+                        <h3>물류 및 유통</h3>
+                        <p>공급망 관리, 재고 추적, 배송 최적화 솔루션으로 물류 효율성을 향상시킵니다.</p>
+                    </div>
+                </div>
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="금융 서비스">
+                    <div class="industry-content">
+                        <h3>금융 서비스</h3>
+                        <p>안전하고 규정을 준수하는 금융 시스템 및 핀테크 솔루션을 개발합니다.</p>
+                    </div>
+                </div>
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="의료 및 헬스케어">
+                    <div class="industry-content">
+                        <h3>의료 및 헬스케어</h3>
+                        <p>환자 관리, 의료 기록, 원격 의료 솔루션으로 의료 서비스를 개선합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>문의하기</h2>
+                <p>프로젝트에 대해 상담하고 싶으신가요? 지금 바로 연락주세요.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>이메일</h3>
+                        <p>voya9erss@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>전화</h3>
+                        <p>010-7559-6106</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>주소</h3>
+                        <p>인천 서구 이음4로 94 </p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">이름</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">이메일</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">회사명</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">문의내용</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">문의하기</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Voyagers</h2>
+                    <p>글로벌 소프트웨어 개발 서비스</p>
+                </div>
+                <div class="footer-links">
+                    <h3>바로가기</h3>
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="#services">서비스</a></li>
+                        <li><a href="#process">프로세스</a></li>
+                        <li><a href="#industries">산업분야</a></li>
+                        <li><a href="#contact">문의하기</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>소셜 미디어</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechSolutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
-<!-- <meta http-equiv="refresh" content="0; URL=https://en9doors.com/"> -->
-<!-- <link rel="canonical" href="https://en9doors.com/"> -->
-<!-- ---
-layout: home
-# Index page
---- -->
+</html> 
